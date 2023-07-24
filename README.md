@@ -1,5 +1,3 @@
-# curso-frontend
-
 # GIT
 ## Conceitos de versionamento
  - Histórico
@@ -15,9 +13,9 @@ Arquivo A | versão 1 | versão 2
 
 ## Instalação do Git
 https://git-scm.com/
-Windows: https://git-scm.com/
-Linux (apt-get): sudo apt-get install git
-Mac (brew): brew install git
+- Windows: https://git-scm.com/
+- Linux (apt-get): sudo apt-get install git
+- Mac (brew): brew install git
 
 ## Criar a conta no GitHub
  
