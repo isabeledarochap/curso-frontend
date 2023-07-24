@@ -1,4 +1,4 @@
-# GIT
+# Curso Front-End
 ## Conceitos de versionamento
  - Histórico
  - Controle de versão
@@ -33,11 +33,29 @@ Informação de alteração
 ## GitFlow
 Fluxo do Git
 
-
-### Brancs
+### Branchs
 são ramificações / versões paralelas
 
 - main / master (vai para a produção, quando o projeto é publicado)
 - develop 
 - DOD Definition of Done: critérios de aceite
 - versionamento 1.0.0
+
+git checkout -b dev (criar uma branch)
+git checkout master (mudar de branch) 
+
+### Merge
+Mescla de branchs
+Você pode precisar resolver conflitos manualmente
+
+git merge main
+
+
+### Pull Requests
+Mescla de branchs no repositório
+Permite code review 
+O repositório resolve os conflitos automaticamente
+
+### configura o GitFlow
+git flow init
+git flow feature start {nome-da-feature}
