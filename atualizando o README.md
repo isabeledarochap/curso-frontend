@@ -40,3 +40,9 @@ são ramificações / versões paralelas
 - develop 
 - DOD Definition of Done: critérios de aceite
 - versionamento 1.0.0
+
+- get checkout -b dev (criar uma branch)
+-get checkout master (mudar de branch)
+
+### Merge
+Mescla de branchs
