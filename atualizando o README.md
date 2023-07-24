@@ -1,4 +1,6 @@
 # Curso Front-End
+#### EBAC
+
 ## Conceitos de versionamento
  - Histórico
  - Controle de versão
@@ -26,7 +28,8 @@ https://git-scm.com/
 Informação de alteração
 - após testado todo seu código
 - git add *
-git commit -m "mensagem"
+- git commit -m "mensagem"
+- git push (enviar alterações para o repositorio)
 
 ## GitFlow
 Fluxo do Git
