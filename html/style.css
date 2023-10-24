@@ -1,0 +1,130 @@
+/* Importando CSS de tabelas */
+@import 'tabelas.css';
+
+/* Herança 
+ 1. Sobreposição / Sobrescreve
+ 2. Aplica o último estilo definido
+ 3. Prioriza estilos específicos (com seletores mais próximos)
+ 4. Se aplica a todas as propriedades
+
+
+*/
+
+html{
+	font-family: san serif;
+color: black;
+}
+
+p {
+	color: black;
+}
+
+a {
+	color: black;
+}
+
+header p {
+	color: #D02090;
+	font-size: 1,5rem;
+}
+
+/* Combinadores 
+
+-seletor descendent (espaço)
+-combinador de seletores filhos (>)
+-combinador de elementos irmãos adjacentes / que vem logo na sequencia (+)
+-combinador de elementos irmãos geral / após elemento de referência 
+
+*/
+
+
+header h2 {
+
+	font-weight: 100;
+}
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2 + p {
+	background: #FFC0CB;
+	color: #2F4F4F;
+}
+
+h2 ~ h5 {
+	font-size: 1.2rem;
+}
+
+h2 ~ p {
+	text-transform: uppercase;
+}
+
+
+/* Pseudo-Elementos */
+
+a {
+	color: #8B7B8B;
+	text-decoration: none; 
+	font-size: 1.5rem;
+}
+
+
+a:hover {
+color: #1C1C1C;
+text-decoration: underline;
+
+}
+
+a:visited {
+	background: #F00;
+}
+ 
+a:active {
+color: #F00;
+}
+
+
+
+/* Tipografia */
+ 
+ html {
+ 	font-family: Times New Roman
+ }
+
+
+h1, h2, h3 {
+    
+    font-weight: bold;
+    font-family: font-family: 'Sevillana', cursive;
+}
+
+
+p {
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+
+li {
+letter-spacing: 0.1rem;
+font-family: sans-serif;
+line-height: 1.5;
+}
+
+
+h3 {
+	font: italic bold 1.2rem/2 sans-serif bold;
+}
+
+
+
+/* Cores */
+p {
+	color: #8B658B;
+}
+
+footer {
+	background-color: #FFDAB9;
+}
+
