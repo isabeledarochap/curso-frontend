@@ -1,0 +1,114 @@
+1. Resolva as operações: 
+● 10 + 15 = 
+R: 25 (number)
+
+● “10” + 2 = 
+R: “102” (string)
+
+● “10” * 2 = 
+R: 20 (number)
+
+● “10” / 3 =
+R: 3.33333333333 (float)
+
+ ● “10” % 3 = 
+R: 1 (number)
+
+● 10 + true =
+R: 11 (number)
+
+ ● 10 == ”10” =
+R: true (boolean)
+
+● 10 === “10” = 
+R: false (boolean)
+
+● 10 < 11 = 
+R: false (boolean) 
+
+● 10 > 12 = 
+R: true (boolean)
+
+● 10 <= 10.1 =
+ R: true (boolean)
+
+● 10 > 9.99 = 
+R: false (boolean)
+
+● 10 != “dez” =
+R: true (boolean)
+
+ ● 10 + true = 
+R: 11 (number)
+
+● “dez” + true = 
+R: onze (number)
+
+● 10 + false =
+R: 10 (number)
+ 
+● 10 * false = 
+R: 10 (number)
+
+● true + true = 
+R: 2 (number)
+
+● 10++ = 
+R: 12 (number)
+
+● 10-- = 
+R: 8 (number)
+
+● 1 & 1 = 
+R: 2 (number) 
+
+● 1 & 0 = 
+R: 1 (number)
+
+● 0 & 0 = 
+R: 0 (number)
+
+● 0 / 1 = 
+R: O (number)
+
+● 5 + 5 == 10 = 
+R: true (boolean)
+
+● “5” + ”5” == 10 = 
+R: true (boolean)
+
+● “5” * 2 > 9 = 
+R: true (boolean)
+ 
+● (10 + 10) * 2 = 
+R: 40 (number)
+
+● 10 + 10 * 2 =
+R: 40 (number)
+ 
+2.
+Responda as perguntas de acordo com as variáveis. 
+var branco = “preto”; 
+var preto = “cinza”; 
+var cinza = “branco”; 
+var carro = “preto”; 
+var valor =  30.000; 
+var prestacao = 750; 
+
+a)	branco == “branco” 
+R: true
+
+b)	branco == cinza 
+R: true
+
+c)	carro === branco 
+R: true
+
+d)	var cavalo = carro == “preto” ? “cinza” : “marrom”; 
+R: false
+
+e)	Quantas prestações são necessárias para pagar o valor do carro com uma entrada de 3.000? Demonstre a operação. 
+      R: 30.000 / 3.000 = 10 (são necessárias 10 prestações de R$3.000,00). 
+
+f)	Somando as variáveis de cores é formada uma string de quantos caracteres?
+R: 6
