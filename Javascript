@@ -108,7 +108,13 @@ d)	var cavalo = carro == “preto” ? “cinza” : “marrom”;
 R: false
 
 e)	Quantas prestações são necessárias para pagar o valor do carro com uma entrada de 3.000? Demonstre a operação. 
-      R: 30.000 / 3.000 = 10 (são necessárias 10 prestações de R$3.000,00). 
+     let valorFinal = 30000 - 3000
+    console.log(valorFinal/750)
+     36
 
 f)	Somando as variáveis de cores é formada uma string de quantos caracteres?
-R: 6
+let branco = 'preto'; 
+let preto = 'cinza'; 
+let cinza = 'branco'; 
+console.log((branco+preto+cinza).length)
+16
